@@ -1,0 +1,10 @@
+{
+  "name": "html-temlate-boilerplate",
+  "version": "1.0.0",
+  "description": "Create HTML template by gulp with pug,scss,sass and bootstrap.",
+  "main": "index.js",
+  "repository": "https://github.com/uksarkar/html-boilerplate.git",
+  "author": "Utpal Sarkar",
+  "license": "MIT",
+  "private": false
+}
