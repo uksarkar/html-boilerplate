@@ -1,0 +1,8 @@
+mixin select(t,...items)
+    .input-group
+        .input-group-prepend
+            .input-group-text=t
+        select#select.form-control&attributes(attributes)
+            option(selected) Not Selected
+            each i in items
+                option=i

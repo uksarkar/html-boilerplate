@@ -1,0 +1,119 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+// @include media-breakpoint-down(lg) {
+	
+// }
+
+// // ≥992px
+// @include media-breakpoint-down(md) {
+
+// }
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+    .login-container{
+        width: 100%;
+    }
+    .main-padding-y {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .slider-top{
+        padding: 4rem 2rem;
+        .slider-first{
+            font-size: 1.2rem;
+        }
+    }
+
+    .banner-top{
+        .banner-three,.banner-fore{
+            padding-left: 1rem;
+        }
+    }
+
+    .big-banner-top,.big-banner-bottom{
+        .banner-block{
+            .big-title{
+                font-size: 2rem;
+            }
+            .small-title{
+                font-size: 1.5rem;
+            }
+            .banner-img{
+                bottom: unset;
+                top: -4rem;
+            }
+        }
+    }
+
+    #navbarSupportedContent{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: #fff;
+        top: 100px;
+    }
+    .full-container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .helpful-links{
+        width: 100vw;
+    }
+    .search-popup{
+        .search{
+            width: 80vw;
+        }
+    }
+    .fix-sm-deration{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img{
+        bottom: unset;
+        top: 0;
+    }
+    .copyright{
+        .row{
+            div{
+                text-align: center !important;
+            }
+        }
+    }
+    .subscription{
+        .title{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+// // ≥576px
+// @include media-breakpoint-down(xs) {
+
+// }
+
+
+// /*==========  Mobile First  ==========*/
+
+// // ≤576px
+// @include media-breakpoint-up(sm) {
+
+// }
+
+// // ≤768px
+// @include media-breakpoint-up(md) {
+// }
+
+// // ≤992px
+// @include media-breakpoint-up(lg) {
+
+// }
+
+// // ≤1200px
+// @include media-breakpoint-up(xl) {
+	
+// }

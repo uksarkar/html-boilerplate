@@ -1,10 +1,31 @@
 {
-  "name": "html-temlate-boilerplate",
+  "name": "html-template-boilerplate",
   "version": "1.0.0",
   "description": "Create HTML template by gulp with pug,scss,sass and bootstrap.",
   "main": "index.js",
   "repository": "https://github.com/uksarkar/html-boilerplate.git",
   "author": "Utpal Sarkar",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-rsync": "^0.0.9",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
 }
